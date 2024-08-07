@@ -7,16 +7,38 @@
     <link rel="stylesheet" href="exemplo_8.css">
 </head>
 <body>
-    <header class="cabecalho container">
-        <img src="img_8/logo-apeperia.svg" alt="Logo da Apeperia" class="cabecalho__logo">
-        <nav class="cabecalho__navegacao">
-            <ul>
-                <li class="cabecalho__link"><a href="#">Sobre</a></li>
-                <li class="cabecalho__link"><a href="#">Planos</a></li>
-                <li class="cabecalho__link"><a href="#">Destaques</a></li>
-                <li class="cabecalho__link"><a href="#">Institucional</a></li>
-            </ul>
-        </nav>
-    </header>
-</body>
-</html>
+    <header class="cabeçalho">
+    <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+            <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        </label>
+       
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">🥛</li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">SOBRE</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">COMO É UTILIZADO</a>
+            </li>   
+        </ul>
+        <img src="img/caixaleite.png" alt="Logo doação de sangue" class="container__imagem">
+        <h2 class="container__titulo"><b class="container__titulo--negrito">ALGODÃO</b></h2> 
+    </div>
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+            <li class="opções__item">OPÇÕES 🥛</li>
+            </label>
+
+        <ul class="lista-menu">
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">SOBRE</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">COMO É UTILIZADO</a>
+            </li>
+        </ul>
+        </ul>
+</header>
